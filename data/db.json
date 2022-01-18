@@ -1,0 +1,50 @@
+{
+  "recipes": [
+    {
+      "id": "2",
+      "title": "Veggie Pizza",
+      "ingredients": [
+        "1 Base",
+        "Tomata pasata",
+        "1 Green pepper",
+        "100g Mushrooms"
+      ],
+      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
+      "cookingTime": "35 minutes"
+    },
+    {
+      "title": "Smash Burgers",
+      "ingredients": [
+        "1-1/2 lbs angus beef 80/20",
+        "1/2 cup mayonnaise",
+        "1 tbsp yellow mustard",
+        "1 tbsp grated yellow onion",
+        "2 tsp hot sauce",
+        "1 tsp Worcestershire sauce",
+        "4 hamburger buns",
+        "2 tbsp butter, room temp",
+        "1-1/2 tsp kosher salt",
+        "1/2 tsp pepper",
+        "american cheese",
+        "2 cups shredded iceburg lettuce"
+      ],
+      "method": "1. Divide ground beef into 8 equal balls about the size of a ping-pong ball (3-ounces each); refrigerate.\n2. In a small mixing bowl, whisk together mayonnaise, mustard, grated onion, hot sauce and Worcestershire to create a special sauce; refrigerate.\n3. Using either a large cast iron griddle or 2 large cast iron pans heated to high, toast buns with butter; reserve to plates.\n4. Space beef balls on hot cooking surface. Using a large metal spatula, smash each ball to 1/4-inch-thick patties. (Tips: using the handle of a second spatula to push down on the top of the spatula adds leverage. Using parchment helps avoid spatula sticking to beef.)\n5. Season patties with 1-teaspoon of reserved special sauce per patty; salt and pepper. Sear 2-3 minutes or until some fat begins to bubble up in center of patty. Quickly flip and top all of the patties with a slice of cheese. Sear another minute and place a patty atop a cheese patty; remove from cooking surface.\n6. Build burgers with a smear of special sauce on bottom bun followed by shredded lettuce, double burgers and top bun.\nVideo tutorial : https://www.youtube.com/watch?v=foD42-73wdI&t=91s",
+      "cookingTime": "30 minutes",
+      "id": "klmMA2D"
+    },
+    {
+      "title": "Grilled Pasta & Cheese Leftovers",
+      "ingredients": [
+        "2 slices of bread (Any kind)",
+        "2-4 slices of American Cheese",
+        "Butter (Room temp)",
+        "Leftover pasta from the other night",
+        "a pinch of garlic powder ",
+        "a dash of ground parsley"
+      ],
+      "method": "1. Heat up the leftovers. Either microwave, or fry up on a skillet.\n2. Warm a skillet to medium/low heat, and butter the bread on one side. \n3. On the buttered side, add some garlic powder, and parsley to your liking.\n4. Grease your skillet, and place a piece of the bread, butter side down on the skillet.\n5. Add a slice of cheese followed by a scoop of pasta.\n6. Add another slice of cheese followed by another slice of bread, butter side up.\n7. Using a spatula, gently flip over your sandwich on the skillet.\n8. Continue flipping every 1-2 minutes, until you have your desired amount of browning on your bread, and your cheese is nice and melty.\n9. Remove from skillet, cut diagonally, and Enjoy!!!",
+      "cookingTime": "15 minutes",
+      "id": "t3X1LdO"
+    }
+  ]
+}
