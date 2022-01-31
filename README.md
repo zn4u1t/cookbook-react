@@ -1,3 +1,6 @@
+Cookbook app made with React, utilizng concepts like context, basic hooks, and making custom hooks. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
