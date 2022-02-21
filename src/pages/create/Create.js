@@ -10,6 +10,7 @@ export default function Create() {
     const [title, setTitle] = useState('')
     const [method, setMethod] = useState('')
     const [cookingTime, setCookingTime] = useState('')
+    const [externalLink, setExternalLink] = useState('')
     const [newIngredient, setNewIngredient] = useState('')
     const [ingredients, setIngredients] = useState([])
     const ingredientInput = useRef(null)
@@ -65,6 +66,10 @@ export default function Create() {
                 <label>
                     <span className='form-text'>Cooking time (minutes):</span>
                     <input type='number' onChange={(e) => setCookingTime(e.target.value)} value={cookingTime} required />
+                </label>
+                <label>
+                    <span className='form-text'>External Link:</span>
+                    <input type='url' onChange={(e) => setExternalLink(e.target.value)} value={externalLink} required></input>
                 </label>
 
                 <button className='btn' style={{ background: color }}>Submit</button>
