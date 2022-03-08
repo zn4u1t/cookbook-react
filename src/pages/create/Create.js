@@ -19,7 +19,7 @@ export default function Create() {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        const doc = {title, ingredients, method, cookingTime: cookingTime + ' minutes'}
+        const doc = {title, ingredients, method, cookingTime: cookingTime + ' minutes', externalLink}
 
         try {
             await projectFirestore.collection('recipes').add(doc)
@@ -69,7 +69,7 @@ export default function Create() {
                 </label>
                 <label>
                     <span className='form-text'>External Link:</span>
-                    <input type='url' onChange={(e) => setExternalLink(e.target.value)} value={externalLink} required></input>
+                    <input type='url' onChange={(e) => setExternalLink(e.target.value)} value={externalLink} ></input>
                 </label>
 
                 <button className='btn' style={{ background: color }}>Submit</button>

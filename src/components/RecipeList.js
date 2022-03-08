@@ -7,7 +7,7 @@ import { projectFirestore } from '../firebase/config'
 import './RecipeList.css'
 
 export default function RecipeList({ recipes }) {
-    const { mode } = useTheme()
+    const { color, mode } = useTheme()
 
     if (recipes.length === 0) {
         return <div className='error'>No recipes to load...</div>
@@ -24,8 +24,8 @@ export default function RecipeList({ recipes }) {
                     <h3>{recipe.title}</h3>
                     <p>{recipe.cookingTime} to make.</p>
                     <div>{recipe.method.substring(0, 100)}...</div>
-                    <Link to={`/recipes/${recipe.id}`}>Cook This</Link>
-                    <img className='delete' src={DeleteButton} onClick={() => handleClick(recipe.id)}/>
+                    <Link to={`/recipes/${recipe.id}`} style={{ background: color }}>Cook This</Link>
+                    <img className='delete' alt='Delete recipe button' src={DeleteButton} onClick={() => handleClick(recipe.id)}/>
                 </div>
             )) }
         </div>

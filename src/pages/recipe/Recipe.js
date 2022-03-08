@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useParams, useHistory } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { useTheme } from '../../hooks/useTheme'
 import { projectFirestore } from '../../firebase/config'
 
@@ -9,8 +9,7 @@ import './Recipe.css'
 export default function Recipe() {
 
     const { id } = useParams()
-    const {color, mode} = useTheme()
-    const history = useHistory()    
+    const {mode} = useTheme()   
 
     const [recipe, setRecipe] = useState(null)
     const [isPending, setIsPending] = useState(false)
@@ -32,11 +31,11 @@ export default function Recipe() {
 
     }, [id])
 
-    const handleClick = () => {
+/*     const handleClick = () => {
         projectFirestore.collection('recipes').doc(id).update({
             title: 'Pizza'
         })
-    }
+    } */
 
     return (
         <div className={`recipe ${mode}`}>
@@ -50,7 +49,7 @@ export default function Recipe() {
                         {recipe.ingredients.map(ing => <li key={ing}>{ing}</li>)}
                     </ul>
                     <p className='method'>{recipe.method}</p>
-                    <a href={recipe.externalLink}>Link</a>
+                    <a href={recipe.externalLink} target='_blank' rel='noreferrer'>Link</a>
                 </>
             )}
         </div>
